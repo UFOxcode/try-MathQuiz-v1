@@ -15,6 +15,9 @@
 		07129E7723D45F0C0039BD15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07129E7523D45F0C0039BD15 /* LaunchScreen.storyboard */; };
 		07129E8223D45F0C0039BD15 /* try_MathQuiz_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07129E8123D45F0C0039BD15 /* try_MathQuiz_v1Tests.swift */; };
 		07129E8D23D45F0C0039BD15 /* try_MathQuiz_v1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07129E8C23D45F0C0039BD15 /* try_MathQuiz_v1UITests.swift */; };
+		072F32AF23D4BED500A4A915 /* AmenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072F32AE23D4BED500A4A915 /* AmenuVC.swift */; };
+		075A7C5623D9D03400DBE0D3 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075A7C5523D9D03400DBE0D3 /* wrong.mp3 */; };
+		075A7C5823D9D05900DBE0D3 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075A7C5723D9D05900DBE0D3 /* win.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		07129E8823D45F0C0039BD15 /* try MathQuiz v1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "try MathQuiz v1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07129E8C23D45F0C0039BD15 /* try_MathQuiz_v1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = try_MathQuiz_v1UITests.swift; sourceTree = "<group>"; };
 		07129E8E23D45F0C0039BD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072F32AE23D4BED500A4A915 /* AmenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmenuVC.swift; sourceTree = "<group>"; };
+		075A7C5523D9D03400DBE0D3 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		075A7C5723D9D05900DBE0D3 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,10 @@
 		07129E6923D45F0B0039BD15 /* try MathQuiz v1 */ = {
 			isa = PBXGroup;
 			children = (
+				075A7C5923D9D06D00DBE0D3 /* Sounds */,
 				07129E6A23D45F0B0039BD15 /* AppDelegate.swift */,
 				07129E6C23D45F0B0039BD15 /* SceneDelegate.swift */,
+				072F32AE23D4BED500A4A915 /* AmenuVC.swift */,
 				07129E6E23D45F0B0039BD15 /* ViewController.swift */,
 				07129E7023D45F0B0039BD15 /* Main.storyboard */,
 				07129E7323D45F0C0039BD15 /* Assets.xcassets */,
@@ -126,6 +134,15 @@
 				07129E8E23D45F0C0039BD15 /* Info.plist */,
 			);
 			path = "try MathQuiz v1UITests";
+			sourceTree = "<group>";
+		};
+		075A7C5923D9D06D00DBE0D3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				075A7C5523D9D03400DBE0D3 /* wrong.mp3 */,
+				075A7C5723D9D05900DBE0D3 /* win.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075A7C5623D9D03400DBE0D3 /* wrong.mp3 in Resources */,
 				07129E7723D45F0C0039BD15 /* LaunchScreen.storyboard in Resources */,
 				07129E7423D45F0C0039BD15 /* Assets.xcassets in Resources */,
+				075A7C5823D9D05900DBE0D3 /* win.mp3 in Resources */,
 				07129E7223D45F0B0039BD15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +281,7 @@
 				07129E6F23D45F0B0039BD15 /* ViewController.swift in Sources */,
 				07129E6B23D45F0B0039BD15 /* AppDelegate.swift in Sources */,
 				07129E6D23D45F0B0039BD15 /* SceneDelegate.swift in Sources */,
+				072F32AF23D4BED500A4A915 /* AmenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
